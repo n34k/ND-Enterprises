@@ -5,6 +5,7 @@ import Who from './pages/Who';
 import Services from './pages/Services';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <Products/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

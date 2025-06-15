@@ -9,9 +9,10 @@ module.exports = {
         serif: ['Manrope', 'sans-serif']
       },
       colors: {
-        primary: '#3A405A',
-        secondary: '#64748B',
+        primary: '#262939',
+        secondary: '#75798B',
         text: '#FFFFFF',
+        subText: '#CCCCCC',
         button: '#3B82F6',
         pop: '#F59E0B'
       }
