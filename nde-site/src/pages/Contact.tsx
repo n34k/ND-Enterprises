@@ -7,7 +7,7 @@ export default function Contact() {
             <section id='contact' className='flex items-center justify-center relative h-screen w-full'>
                 <div className='flex flex-col w-10/12 gap-5' >
                     <p className='text-subText'>CONTACT US</p>
-                    <p className='text-6xl'>Let's work together</p>
+                    <p className='text-6xl'>Let's work together.</p>
                     <p className='text-2xl'>
                         At ND Enterprises, we prioritize reliability and long-term success.
                         We’re committed to building lasting partnerships that benefit both sides.

@@ -7,7 +7,7 @@ export default function Main() {
   const opacity = useTransform(scrollY, [0, 300], [1, 0.3]);
 
   return (
-    <section className="h-[200vh] relative">
+    <section id='main' className="h-[200vh] relative">
       <div className="sticky top-0 -mt-20 h-screen w-full flex items-center justify-center overflow-hidden">
         <motion.video
           src="/assets/warehouse.mp4"

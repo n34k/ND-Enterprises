@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.png'
+import ecomm from '../assets/images/ecomm.png'
 
 export default function Wh0() {
     return (
@@ -16,7 +16,7 @@ export default function Wh0() {
                         business is a commitment to reliability, long-term partnerships, and exceptional customer satisfaction.
                     </p>
                 </div>
-                <img src={logo} alt="ND Enterprises" className='w-1/2 rounded-xl'/>
+                <img src={ecomm} alt="ND Enterprises" className='w-1/2 rounded-xl'/>
             </div>
         </section>
     );
