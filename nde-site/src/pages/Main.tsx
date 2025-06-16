@@ -6,7 +6,7 @@ import logo from "../assets/images/logo-white-transparent.png"
 export default function Main() {
   const { scrollY } = useScroll();
   const scale = useTransform(scrollY, [0, 500], [1.2, 0.91]);
-  const opacity = useTransform(scrollY, [0, 300], [1, 0.3]);
+  const opacity = useTransform(scrollY, [0, 500], [0.7, 0.1]);
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
@@ -27,9 +27,9 @@ export default function Main() {
           style={{ scale, opacity }}
           onLoadedData={() => setVideoLoaded(true)}
         />
-        <div className="absolute w-3/4 text-center z-10 px-4">
-            <p className="text-3xl">ND ENTERPRISES</p>
+        <div className="flex flex-col gap-3 items-center absolute text-center z-10 px-4">
             <p className="text-5xl md:text-7xl font-bold mt-2">Your Products, Delivered with Precision.</p>
+            <p className="text-3xl">ND ENTERPRISES</p>
         </div>
       </div>
     </section>

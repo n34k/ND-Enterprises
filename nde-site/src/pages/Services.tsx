@@ -13,9 +13,12 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="flex flex-col items-center justify-start relative w-full min-h-screen gap-8 px-6 md:px-36 py-20"
+      className="flex flex-col items-center justify-start relative w-full min-h-screen gap-8 px-6 md:px-36 py-20 scroll-mt-80 md:scroll-mt-24"
     >
-      <h2 className="font-bold text-3xl md:text-5xl text-center">What We Do</h2>
+      <div className='flex flex-col items-center gap-3'>
+        <p className="font-bold text-3xl md:text-5xl text-center">What We Do</p>
+        <p className='text-subText text-sm md:text-base'>WHY US</p>
+      </div>
 
       <div className="flex flex-col gap-10 w-full max-w-4xl">
         <Service title="Amazon Sales Channel Management" Icon={Squares2X2Icon}>

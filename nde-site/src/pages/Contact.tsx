@@ -4,11 +4,11 @@ import { PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 
 export default function Contact() {
     return (
-        <section id='contact' className='flex relative items-center justify-center min-h-screen w-full'>
+        <section id='contact' className='flex relative items-center justify-center min-h-screen w-full scroll-mt-96 md:scroll-mt-2'>
             <div className='flex flex-col md:flex-row justify-center items-center gap-14'>
                 <div className='flex flex-col w-5/6 md:w-6/12 gap-8' >
-                    <p className='text-subText'>CONTACT US</p>
                     <p className='text-6xl'>Let's work together.</p>
+                    <p className='text-subText'>CONTACT US</p>
                     <p className='text-2xl'>
                         At ND Enterprises, we prioritize reliability and long-term success.
                         We’re committed to building lasting partnerships that benefit both sides.

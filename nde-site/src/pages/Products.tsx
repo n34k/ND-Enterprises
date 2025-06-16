@@ -14,9 +14,13 @@ export default function Products() {
   const [arrowsVisible, setArrowsVisible] = useState(true);
 
   return (
-    <section id="products" className="flex relative items-center justify-center md:min-h-[50vh] w-full">
+    <section id="products" className="flex relative items-center justify-center md:min-h-[50vh] w-full scroll-mt-96 md:scroll-mt-44">
       <div className="flex flex-col items-center justify-center gap-10 overflow-x-hidden">
-        <p className="font-bold text-3xl md:text-5xl">Current Products</p>
+        <div className='flex flex-col items-center gap-3'>
+          <p className="font-bold text-3xl md:text-5xl">Current Products</p>
+          <p className='text-subText text-sm md:text-base'>WHAT WE SELL</p>
+        </div>
+
 
         <div className="relative w-4/5 max-w-sm md:max-w-6xl">
           <button
