@@ -19,7 +19,7 @@ export default function Main() {
           style={{ scale, opacity }}
         />
         <div className="absolute w-3/4 text-center z-10 text-white px-4">
-            <p className="text-xl text-subText">ND ENTERPRISES</p>
+            <p className="text-3xl">ND ENTERPRISES</p>
             <p className="text-5xl md:text-7xl font-bold mt-2">Your Products, Delivered with Precision.</p>
         </div>
       </div>

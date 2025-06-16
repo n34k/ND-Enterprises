@@ -31,7 +31,7 @@ export const products:ProductType[] = [
     asin: "B08KXYK62M"
   },
   {
-    title: '800W/2000W e Scooter for Adults Electric Scooter with Seat 10" Off Road Pneumatic Tires Long Range Motorized e-Scooter,28-35MPH,30-35Miles Range eScooter,Fast Foldable Eletric Scooters for men',
+    title: '800W/2000W e Scooter for Adults Electric Scooter with Seat 10" Off Road Pneumatic Tires Long Range Motorized e-Scooter,28-35MPH,30-35Miles Range eScooter',
     price: '$480',
     image: scooter,
     rating: 4.1,

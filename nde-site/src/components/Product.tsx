@@ -13,7 +13,7 @@ type ProductProps = {
 export default function Product({ title, price, image, rating, asin }:ProductProps) {
     return (
         <a href={`https://www.amazon.com/dp/${asin}/?m=${SELLER_ID}`} target="_blank" rel="noopener noreferrer" 
-        className="block md:w-10/12 w-3/5 p-4 bg-white rounded-lg shadow transition">
+        className="flex flex-col md:w-10/12 w-3/5 p-4 mb-10 bg-white rounded-lg z-40 shadow-2xl transition ease-in-out gap-2">
             <img src={image} alt={title} className="w-full h-40 object-contain" />
             <p className="text-black text-sm md:text-xl font-semibold">{title}</p>
             <p className="text-black md:text-xl font-bold">{price}</p>
