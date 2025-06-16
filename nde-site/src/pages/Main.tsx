@@ -11,7 +11,7 @@ export default function Main() {
       <div className="sticky top-0 -mt-20 h-screen w-full flex items-center justify-center overflow-hidden">
         <motion.video
           src="/assets/warehouse.mp4"
-          className="absolute w-11/12 h-11/12 object-cover z-0 rounded-3xl"
+          className="absolute w-full h-[95vh] object-cover z-0 rounded-3xl"
           autoPlay
           loop
           muted
@@ -19,7 +19,7 @@ export default function Main() {
           style={{ scale, opacity }}
         />
         <div className="absolute w-3/4 text-center z-10 text-white px-4">
-            <p className="text-xl font-bold">ND Enterprises</p>
+            <p className="text-xl text-subText">ND ENTERPRISES</p>
             <p className="text-5xl md:text-7xl font-bold mt-2">Your Products, Delivered with Precision.</p>
         </div>
       </div>

@@ -36,7 +36,7 @@ export default function Header() {
 
         {/* Dropdown Menu */}
         <div
-          className={`fixed flex flex-col items-center space-y-8 rounded-b-3xl md:hidden w-full bg-primary/60 backdrop-blur-md shadow-lg transition-all duration-500 ease-in-out overflow-hidden 
+          className={`flex flex-col items-center space-y-8 rounded-b-3xl md:hidden w-full bg-secondary/60 backdrop-blur-md shadow-lg transition-all duration-500 ease-in-out overflow-hidden
           ${menuOpen ? 'max-h-[60vh] p-5 ' : 'max-h-0'} `}
         >
           <a href="#who" onClick={() => setMenuOpen(false)} className="text-2xl font-bold hover:text-pop">About Us</a>
